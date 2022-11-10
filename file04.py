@@ -8,7 +8,7 @@ def main(data:str):
     """
     a=[]
     for i in f:
-        if i.isdigit():
+        if i.isalpha():
             a.append(i)
     return a
     
