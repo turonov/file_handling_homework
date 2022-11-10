@@ -10,5 +10,5 @@ def main(data:str):
 
 # Read data from file
 f = open("txt_file/data01.txt").read().split()
-#a=[f]
-print(main(f))
+a=[f]
+print(main(a))
