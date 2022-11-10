@@ -8,10 +8,10 @@ def main(data:str):
     """
     a = []
     for i in f:
-        if i.isalpha():
+        if i.isdigit():
             a.append(i)
     return a
     
 # Read data from file
-f=open("txt_file/data05.txt").read()
+f=open("txt_file/data05.txt").read().split("\n")
 print(main(f))
