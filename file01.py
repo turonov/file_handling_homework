@@ -10,4 +10,6 @@ def main(data:str) -> list():
 
 # Read data from file
 f = open("txt_file/data01.txt").read()
-print(main(list(f)))
+a=f.split(",")
+b = [a]
+print(main(a))
