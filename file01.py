@@ -7,11 +7,10 @@ def main(data:str):
         list: return answer
     """
     b=[]
-    for i in a:
-        b.append(int(i))
-    return data
+    for i in f:
+        b.append(i)
+    return b
 
 # Read data from file
 f = open("txt_file/data01.txt").read()
-a=f.split(",")
-print(main(a))
+print(main(f))
