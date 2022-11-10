@@ -9,5 +9,5 @@ def main(data:str) -> list():
     return data
 
 # Read data from file
-f = open("txt_file/data01.txt").read().split()
-print(main(f))
+f = open("txt_file/data01.txt").read()
+print(main(list(f)))
