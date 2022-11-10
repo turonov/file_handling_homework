@@ -12,5 +12,5 @@ def main(data:str):
     return b
 
 # Read data from file
-f = open("txt_file/data01.txt").read()
+f = open("txt_file/data01.txt").read().split(",")
 print(main(f))
