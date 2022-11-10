@@ -1,4 +1,4 @@
-def main(data:str):
+def main(data:str) -> list():
     """
     The data is from the file. Return data as a list type.
     Args:
@@ -10,5 +10,4 @@ def main(data:str):
 
 # Read data from file
 f = open("txt_file/data01.txt").read().split()
-a=[f]
-print(main(a))
+print(main(f))
