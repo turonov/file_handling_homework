@@ -9,7 +9,7 @@ def main(data:str):
     a = []
     for i in f:
         a.append(len(i))
-    return a
+    return max(a)
 # Read data from file
 f = open("txt_file/data10.txt").read().split("\n")
 print(main(f))
